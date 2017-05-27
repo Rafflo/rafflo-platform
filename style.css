@@ -125,8 +125,21 @@ margin-top: 1em;
 
 #dash-image {
   margin-top: 2em;
-  width: 100%;
+  width: 60%;
   text-align: left;
   background-color: #E3E4E4;
   padding: 0;
+}
+
+.dash-header {
+background-color: #E3E4E4;
+padding-bottom:1em;
+}
+
+#social {
+margin-top: 10px;
+}
+
+.options {
+text-align: center;
 }
