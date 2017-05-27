@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  padding: 2em;
+  padding: 0;
   width: 100%;
   background-color: white;
 }
@@ -28,10 +28,10 @@ body {
 }
 
 .intro {
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
   background-color: white;
-  padding: 2em;
+  padding: 0;
   max-width: 80%;
   margin: auto;
   font-family: 'Open Sans', sans-serif;
@@ -42,12 +42,15 @@ body {
   background-color: #FDC431;
   float:right;
   margin-top: -5px;
+border-radius: 6px;
 }
 
 #start-btn {
   background-color: #FDC431;
-  font-size: 3em;
-  margin-left: 300px;
+  font-size: 2.5em;
+  margin-left: 350px;
+border-radius: 6px;
+
 }
 
 .main-image {
@@ -96,8 +99,11 @@ li a {
 
 li a:hover {
   background-color: #E01A2B;
+border-radius: 6px;
+
 }
 
 .active {
   background-color: #E01A2B;
+border-radius: 6px;
 }
