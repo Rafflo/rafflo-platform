@@ -10,14 +10,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="shortcut icon" href="./favicon.ico">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-
-  <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -26,9 +22,11 @@
     <div class="container-fluid">
       NavBar
     </div>
-    <div class="container">
-      <img class="img-responsive feet col-md-4" src="feet.png" alt="ANALYTICS">
-      <div ="col-md-4">
+    <div class="row">
+      <div class="col-sm-8">
+        <img src="hands.jpg" alt="hands and feet" />
+      </div>
+      <div class="col-sm-4">
         <p>Progress bar</p>
         <p>$1000</p>
         <img class="img-responsive center-block" src="progress bar.png" alt="ANALYTICS">
@@ -37,19 +35,19 @@
     </div>
     <div class="container">
       <div class="row">
-        <a href="#">
+        <a class="col-sm-4" href="#">
           <button class="btn btn-lg">
             <img class="img-responsive center-block" src="ICON.png" alt="ANALYTICS">
             <p> ANALYTICS </p>
           </button>
         </a>
-        <a href="#">
+        <a class="col-sm-4" href="#">
           <button class="btn btn-lg">
             <img class="img-responsive center-block" src="ICON.png" alt="ANALYTICS">
             <p> My ACCOUNT </p>
           </button>
         </a>
-        <a class="col-md-4" href="#">
+        <a class="col-sm-4" href="#">
           <button class="btn btn-lg">
             <img class="img-responsive center-block" src="ICON.png" alt="ANALYTICS">
             <p> FUNDERS </p>
@@ -57,7 +55,7 @@
         </a>
       </div>
       <div class="row">
-        <a class="col-md-4" href="#">
+        <a class="col-sm-4" href="#">
           <button class="btn btn-lg">
             <img class="img-responsive center-block" src="ICON.png" alt="ANALYTICS">
             <p> MY EVENTS </p>
