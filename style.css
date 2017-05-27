@@ -31,27 +31,29 @@ body {
 .intro {
   font-size: 2em;
   text-align: center;
-  background-color: white;
   padding: 0;
   max-width: 80%;
-  margin: auto;
+  margin-left: 100px;
   font-family: 'Open Sans', sans-serif;
 }
 
 #signup {
   background-color: #FDC431;
   float:right;
-  margin-top: 10px;
+  margin-top: 1.5em;
   border-radius: 6px;
 }
 
 #start-btn {
   background-color: #FDC431;
   font-size: 2.5em;
-  margin-left: 350px;
+  margin-left: 500px;
   border-radius: 6px;
   margin-top: 1em;
+}
 
+.start {
+align-items: center;
 }
 
 .main-image {
@@ -85,7 +87,7 @@ h2 {
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 1em;
   padding: 0;
   overflow: hidden;
   background-color: white;
@@ -106,9 +108,17 @@ li a {
 li a:hover {
   background-color: #E01A2B;
   border-radius: 6px;
+  padding:.5em;
+  margin-top:.5em;
 }
 
 .active {
   background-color: #E01A2B;
-border-radius: 6px;
+  border-radius: 6px;
+  padding:.5em;
+  margin-top:.5em;
+}
+
+p{
+margin-top: 1em;
 }
