@@ -1,42 +1,82 @@
+<<<<<<< HEAD
 body {  
 background-color: white;
 padding: 0;
 margin:0;
+=======
+body {
+  background-color: white;
+  padding: 0;
+  margin:0;
+>>>>>>> 452ca7d5dbc43fc2aae6f4a533e753869cdb5561
 }
 
 .container {
-padding: 2em;
-width: 100%;
-background-color: white;
+  padding: 0;
+  width: 100%;
+  background-color: white;
 }
 
-.main-heading {
-text-align: center;
-font-family: 'Montserrat', sans-serif;
-background-color: #333;
-width: 100%;
-padding: 2em;
-margin-bottom: 2em;
+.row {
+  padding: 0;
+  margin:0;
+}
+
+.nav {
+  max-width: 90%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+  float: left;
+  padding: 0;
+  margin: 0;
 }
 
 .intro {
-font-size: 2.5em;
-text-align: center;
-background-color: white;
-padding: 2em;
-max-width: 80%;
-margin: auto;
+  font-size: 2em;
+  text-align: center;
+  background-color: white;
+  padding: 0;
+  max-width: 80%;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#signup {
+  background-color: #FDC431;
+  float:right;
+  margin-top: -5px;
+  border-radius: 6px;
+}
+
+#start-btn {
+  background-color: #FDC431;
+  font-size: 2.5em;
+  margin-left: 350px;
+  border-radius: 6px;
+  margin-top: 1em;
+
+}
+
+.main-image {
+  margin-top: 2em;
+  width: 100%;
+  text-align: center;
+  background-color: #E3E4E4;
+  padding: 0;
 }
 
 .btn {
-background-color: #333;
-color: white;
-margin-top: 1em;
-font-size: 1em;
+  background-color: #333;
+  color: white;
+  margin-top: 1em;
+  font-size: 1em;
 }
 
 .btn:hover {
-background-color: #E01A2B;
+  background-color: #E01A2B;
 }
 
 .feet img {
@@ -45,9 +85,36 @@ background-color: #E01A2B;
 }
 
 h2 {
-font-size: 1.5em;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#logo {
-text-align: left;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #E01A2B;
+  border-radius: 6px;
+}
+
+.active {
+  background-color: #E01A2B;
+border-radius: 6px;
 }
