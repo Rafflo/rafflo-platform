@@ -143,3 +143,17 @@ margin-top: 10px;
 .options {
 text-align: center;
 }
+
+.tickets {
+text-align: center;
+}
+
+.sold {
+font-size: 3em;
+border: solid 4px #E01A2B;
+}
+
+.togo {
+font-size: 3em;
+border: solid 4px green;
+}
