@@ -145,7 +145,7 @@ text-align: center;
 }
 
 .tickets {
-text-align: center;
+float: left;
 }
 
 .sold {
